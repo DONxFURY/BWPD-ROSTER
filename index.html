@@ -5,8 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EMS Hiring Form</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    #emsLogo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    form {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      width: 60%;
+      margin: auto;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background-color: #e74c3c;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c0392b;
+    }
+    a {
+      color: #00bcd4;
+    }
+  </style>
 </head>
 <body>
+  <img id="emsLogo" src="ems_logo.png" alt="EMS Logo">
   <h1>EMS Hiring Application</h1>
   <form id="emsForm">
     <label for="name">Full Name:</label>
